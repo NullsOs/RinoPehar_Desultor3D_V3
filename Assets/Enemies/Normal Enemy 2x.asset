@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c46ad6efcdcff849992bade04c79108, type: 3}
+  m_Name: Normal Enemy 2x
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData3D
+  enemyTypeName: Enemy
+  walkSpeed: 2
+  runSpeed: 4
+  rotationSpeed: 10
+  detectionRange: 6
+  detectionExitBuffer: 1
+  attackRange: 0.7
+  attackExitBuffer: 0.25
+  damage: 2
+  attackCooldown: 1
+  attackStateName: Base Layer.Mutant Swiping
+  attackTransitionDuration: 0.1
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  ledgeCheckForwardDistance: 0.7
+  ledgeCheckDownDistance: 1.5
+  ledgeCheckUpOffset: 0.2
+  wallCheckDistance: 0.5
+  wallCheckHeight: 0.5
+  walkAnimationSpeed: 1
+  runAnimationSpeed: 4
+  attackAnimationSpeed: 1
+  playerBounceHeight: 1.5
+  healingItemPrefab: {fileID: 801373778577627652, guid: 84f3e633a4fbc0441aea317953530440, type: 3}
+  healingDropChance: 1
+  dropRadius: 0.75
+  dropHeight: 0.5
